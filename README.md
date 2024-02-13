@@ -1,2 +1,2 @@
 # sukuna-jjk
-Jujutsu Kaisen Sukuna Animated Landing Page is a web page designed to showcase animated content inspired by the popular Japanese manga and anime series "Jujutsu Kaisen."
+Jujutsu Kaisen Sukuna Animated Landing Page is a web page designed to showcase animated content inspired by the popular Japanese manga and anime series "Jujutsu Kaisen." The landing page likely features animations, graphics, or interactive elements related to the character Sukuna, a powerful and enigmatic entity within the series. Users visiting the landing page can experience dynamic visuals and engage with the immersive content, providing an engaging introduction or promotional experience for fans of "Jujutsu Kaisen" and Sukuna specifically.
