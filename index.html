@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jujutsu kaisen sukuna Animated Landing Page</title>
-    <!-- CSS File  -->
+    <title>Jujutsu Kaisen Sukuna Animated Landing Page</title>
+    <!-- CSS File -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Bootstrap Icons  -->
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <video autoplay loop muted>
-        <source src="BG BY CWS.mp4" >
+        <source src="data/Sukuna Fire.mp4" >
     </video>
+    <!-- Audio Autoplay -->
+    <audio autoplay>
+        <source src="data/Sukuna.mp3" type="audio/mpeg">
+    </audio>
+    
     <nav class="navbar">
         <div class="container">
             <a href="#" class="logo">manishxfalcon</a>
@@ -45,5 +50,12 @@
             </div>
         </div>
     </main>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("backgroundMusic");
+            audio.play();
+        }
+    </script>
 </body>
 </html>
