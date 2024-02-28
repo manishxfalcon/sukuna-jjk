@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jujutsu Kaisen Sukuna Animated Landing Page</title>
+    <title>jujutsu kaisen sukuna Animated Landing Page</title>
     <!-- CSS File -->
     <link rel="stylesheet" href="styles.css">
     <!-- Bootstrap Icons -->
@@ -14,10 +14,9 @@
         <source src="data/Sukuna Fire.mp4" >
     </video>
     <!-- Audio Autoplay -->
-    <audio autoplay>
+    <audio id="backgroundMusic" autoplay>
         <source src="data/Sukuna.mp3" type="audio/mpeg">
     </audio>
-    
     <nav class="navbar">
         <div class="container">
             <a href="#" class="logo">manishxfalcon</a>
@@ -38,9 +37,10 @@
                 <p>Ryomen Sukuna, more often referred to as simply Sukuna, is the strongest jujutsu sorcerer from a thousand years ago. Regarded as the undisputed King of Curses.</p>
                 <div class="buttons">
                     <a href="#" class="active">Learn more</a>
-                    <a href="#">Browse</a>
+                    <a href="#" onclick="playAudio()">Play</a>
                 </div>
 
+                
                 <div class="social-links">
                     <a href="#" class="bi bi-facebook" ></a>
                     <a href="#" class="bi bi-youtube" ></a>
